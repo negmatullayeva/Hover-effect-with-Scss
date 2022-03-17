@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.wrapper {
+  width: 860px;
+  height: 70vh;
+  margin: 15vh auto;
+  background-color: #DDF0FC;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .wrapper .book {
+    width: 800px;
+    height: 48vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: wheat; }
+    .wrapper .book .box {
+      width: 200px;
+      height: 24vh;
+      background-color: #AF7AC5;
+      position: relative;
+      transition: background-color .5s; }
+      .wrapper .book .box:hover {
+        background-color: #0C6CA9; }
+      .wrapper .book .box:hover span {
+        background-color: #0C6CA9; }
+      .wrapper .book .box:hover img {
+        transform: scale(1.2); }
+      .wrapper .book .box span {
+        position: absolute;
+        top: 40%;
+        right: -12px;
+        width: 24px;
+        height: 24px;
+        transform: skew(-45deg, 45deg);
+        z-index: 2;
+        display: block;
+        transition: background-color .5s; }
+      .wrapper .book .box img {
+        width: 50px;
+        height: 50px;
+        margin: 7px 70px; }
+      .wrapper .book .box h1, .wrapper .book .box p {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: white; }
+      .wrapper .book .box h1 {
+        font-size: 18px; }
+      .wrapper .book .box p {
+        margin-top: 5px;
+        font-size: 14px; }
+    .wrapper .book .blue {
+      background-color: #5DADE2; }
+      .wrapper .book .blue span {
+        background-color: #5DADE2; }
+    .wrapper .book .ocean {
+      background-color: #48C9B0; }
+      .wrapper .book .ocean span {
+        background-color: #48C9B0; }
+    .wrapper .book .violet {
+      background-color: #52BE80; }
+      .wrapper .book .violet span {
+        background-color: #52BE80; }
+    .wrapper .book .yellow {
+      background-color: #ECC837; }
+      .wrapper .book .yellow span {
+        background-color: #ECC837; }
+    .wrapper .book .grey {
+      background-color: #EB984E; }
+      .wrapper .book .grey span {
+        background-color: #EB984E; }
+    .wrapper .book .purple {
+      background-color: #F06292; }
+      .wrapper .book .purple span {
+        background-color: #F06292; }
+    .wrapper .book .green {
+      background-color: #4DB6AC; }
+      .wrapper .book .green span {
+        background-color: #4DB6AC; }
+
+/*# sourceMappingURL=style.css.map */

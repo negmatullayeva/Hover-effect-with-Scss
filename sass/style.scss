@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 860px;
+    height: 70vh;
+    margin: 15vh auto;
+    background-color: #DDF0FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .book{
+       width: 800px;
+       height: 48vh;
+       display: flex;
+       flex-wrap: wrap;
+       background-color: wheat;
+       .box{
+           width: 200px;
+           height: 24vh;
+           background-color: #AF7AC5;
+           position: relative;
+           transition:  background-color .5s;
+           &:hover{
+               background-color: #0C6CA9;
+           }
+           &:hover span{
+            background-color: #0C6CA9;
+           }
+           &:hover img{
+               transform: scale(1.2);
+           }
+           span{
+               position: absolute;
+               top: 40%;
+               right: -12px;
+               width: 24px;
+               height: 24px;
+               transform: skew(-45deg, 45deg);
+            //    background-color: white;
+               z-index: 2;
+               display: block;
+               transition: background-color .5s;
+            }
+            img{
+                width: 50px;
+                height: 50px;
+                margin: 7px 70px;
+            }
+            h1, p{
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+            }
+            h1{
+                font-size: 18px;
+            }
+            p{
+                margin-top: 5px;
+                font-size: 14px;
+            }
+       }
+       .blue{
+            background-color: #5DADE2; 
+          span{
+            background-color: #5DADE2;
+            }
+       }
+       .ocean{
+            background-color: #48C9B0; 
+            span{
+                background-color: #48C9B0;
+            }
+       }
+       .violet{
+            background-color: #52BE80; 
+            span{
+                background-color: #52BE80;
+        }
+       }
+
+
+       .yellow{
+            background-color: #ECC837; 
+            span{
+                background-color: #ECC837;
+            }
+        }
+        .grey{
+            background-color: #EB984E; 
+            span{
+                background-color: #EB984E;
+            }
+        }
+        .purple{
+            background-color: #F06292; 
+            span{
+                background-color: #F06292;
+            }
+        }
+        .green{
+            background-color: #4DB6AC; 
+            span{
+                background-color: #4DB6AC;
+            }
+        }
+    }
+}
